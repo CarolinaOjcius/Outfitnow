@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/heart.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="sylesheet" href="fonts/FontAwesome.css">
+    <script src="https://use.fontawesome.com/c560c025cf.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/c560c025cf.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light seccion">
+        <a class="navbar-brand mb-0 h1" href="index.html">Outfitnow!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <!--<a href="#"><span class="fa fa-shopping-cart fa-2x"></span></a>-->
+                <button type="button" data-toggle="modal" data-target=".bd-example-modal-lg"
+                    class="fa fa-shopping-cart fa-2x"></button>
+                <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>-->
+            </ul>
+        </div>
+    </nav>
+
+    <h3 class="text-center p-2 titulo ">Usá los siguientes filtros para encontrar más rápido el conjunto según la
+        ocasión</h3>
+    <div class="d-flex justify-content-center flex-wrap  ">
+        <div class="p-2  text-center">
+            <a href="#">
+                <h3 class="titulo">Día Informal</h3>
+                <img class="sliderImg btnAct img-thumbnail opa" id="btdi" src="img/Dia-informal.jpg" alt="...">
+            </a>
+        </div>
+        <div class="p-2  text-center">
+            <a href="#">
+                <h3 class="titulo">Día Formal</h3>
+                <img class="sliderImg btnAct img-thumbnail opa" id="btdf" src="img/DIA-Formal.jpg" alt="...">
+            </a>
+        </div>
+        <div class="p-2  text-center">
+            <a href="#">
+                <h3 class="titulo">Noche Informal</h3>
+                <img class="sliderImg btnAct img-thumbnail opa" id="btni" src="img/NOCHE-Informal.jpg" alt="...">
+            </a>
+        </div>
+        <div class="p-2 text-center">
+            <a href="#">
+                <h3 class="titulo">Noche Formal</h3>
+                <img class="sliderImg btnAct img-thumbnail opa" id="btnf" src="img/NOCHE-formal.jpg" alt="...">
+            </a>
+        </div>
+    </div>
+
+    <div class="p-4">
+        <h2 class="text-center titulo">Outfits</h2>
+        <div class="justify-content-beetwen">
+            <div class="dropdown" style="display: inline-block;">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1 btnMenorPre"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Ordenar
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li class="p-2"><a id="valmen" href="">Menor precio $</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="seccion">
+            <div class="d-flex justify-content-center flex-wrap padreOutfit" id="Sec1"></div>
+        </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+        aria-hidden="true" id="myModal">
+        <div class="modal-dialog modal-sm custom">
+            <div class="modal-content p-2 popup2">
+                <h4 class="titulo">Producto agregado al carrito</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg popup1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg popup1">
+            <div class="modal-content justify-content-beetwen" id="carritoList">
+                <h4 class="p-4 titulo">No hay productos en el carrito</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="text-center pt-3 footerC">
+        <div class="container-fluid">
+            <section class="mb-4">
+                <a class="btn btn-outline-light btn-floating m-1 btnOut" href="#!" role="button"><i
+                        class="fa fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1 btnOut" href="#!" role="button"><i
+                        class="fa fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1 btnOut" href="#!" role="button"><i
+                        class="fa fa-github"></i></a>
+                <div class=" container-fluid text-center p-3 footerC">
+                    © 2021 Copyright:
+                    <a class="btnOut" href="index.html">Outfitnow.com</a>
+                </div>
+            </section>
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/Producto2.js"></script>
+</body>
+
+</html>
