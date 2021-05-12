@@ -1,0 +1,202 @@
+
+body{
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(119,99,158,1) 100%);
+
+}
+h3,h4.titulo{
+    text-shadow: 1px 1px 5px black;
+}
+h6.titulo{
+    text-shadow: 1px 1px 5px black;
+}
+h2.titulo{
+    text-shadow: 1px 1px 5px black;
+}
+p.titulo{
+    text-shadow: 1px 1px 5px black;
+    
+}
+a{
+    list-style: none;
+        
+}
+a:hover{
+        text-decoration: none;
+}
+
+ul{
+    list-style: none; 
+    padding: 0px; 
+}
+h3{
+    color: white;  
+    
+}
+h4,h6,p{
+    font-family: 'Redressed', cursive;
+   
+}
+h1, h2, h3,a{
+   /* font-family: 'Berkshire Swash', cursive;*/
+    font-family: 'Redressed', cursive;
+    
+}
+h2.carrito2{
+    display: inline-block;
+}
+
+.popup1{
+    padding-right: 0px !important;
+}
+
+.popup2{
+   /* background-color:  rgb(185, 2, 115);*/
+    background-color:#c19ec8;
+    color: white;
+}
+a.navbar-brand.mb-0.h1:hover{
+    /*color: rgb(185, 2, 115);*/
+    color:#8d6594;
+}
+.navbar{
+    /*background-color: #564b5a;*/
+    box-shadow: 0px 5px 10px #8d6594;
+
+    
+}
+
+button.fa-shopping-cart{
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+button.fa-shopping-cart:hover{
+    /*color: rgb(185, 2, 115);*/
+    color:#7a5681;
+    /*color:#c19ec8;*/
+}
+
+
+img.sliderImg{
+    height: 430px;
+    width: 300px;
+    }
+
+
+img.btnAct{
+    border-radius: 2px;
+}
+/*
+img.btnAct{
+border-radius: 0px; border-color:grey 3px;}
+img.btnAct:hover, img.btnAct:focus, img.btnAct:active{ opacity: 1.0;}
+
+*/
+.opa1{
+    opacity:1.0;
+}
+
+.opa{
+    opacity: 0.7;
+}
+.outfits{
+    width: 300px;
+    
+}
+
+    
+
+.seccion{
+    /*
+    background-image: url("../img/fondo.jpg");
+    background-size:cover;*/
+    background-image: url("../img/fondo5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+}
+
+
+.btn-default{color: #000000; background-color: rgb(255, 255, 255); border-color:#c19ec8;/* rgb(185, 2, 115);*/ }
+.btn-default:hover, .btn-default:focus, .btn-default:active, 
+.open .dropdown-toggle.btn-default{ color: #ffffff; background-color:#c19ec8;/* rgb(185, 2, 115);*/ border-color:transparent; }
+.titulo{
+    color:white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btnOut{
+  /*  color: #777;*/
+    color: black;
+}
+
+a.btnOut:hover{
+   /* color: rgb(185, 2, 115);*/
+    color:#895e92;
+}
+
+.footerC{
+
+color: white;
+}
+
+.custom{
+    width:50%;
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin:0;
+}
+
+hr.division{
+    /*border-color: rgb(185, 2, 115);*/
+    border-color:#ffffff;
+}
+#carritoList{
+    /*background-color: black;
+    background-color: #ea9494;*/
+    background-color:#c19ec8;
+    color:white;
+
+    
+}
+button.quitarProd{
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.quitarProd.titulo{
+    text-shadow: 1px 1px 5px black;
+}
+
+.btnCompra:hover{
+    background-color:#7d4588;
+    color:white;
+    
+}
+
+.display{
+    display: inline-block;
+}
+
+button.btnCount{
+    border-style:none;
+    border-radius:2px;
+    
+}
+
+div.seccion{
+    border: 5px solid;
+    border-color: #ffffff;
+}
+a#valmen{
+    font-family: sans-serif;
+    font-size: small;
+    color:black;
+}
+.btnConfirmar:hover{
+    background-color:#7d4588;
+}

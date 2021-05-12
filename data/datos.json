@@ -1,0 +1,216 @@
+[{  "id": 1,
+    "categoria1":"DIA",
+    "categoria2":"INFORMAL",
+    "nombre": "INDIANA",
+    "talle":"M",
+    "precio": 5140,
+    "cantidad":4,
+    "img":"img/lookDI1.jpeg"
+  }, {
+    "id": 2,
+    "categoria1":"DIA",
+    "categoria2":"FORMAL",
+    "nombre": "MARGARITA",
+    "talle":"S",
+    "precio": 11000,
+    "cantidad":3,
+    "img":"img/lookDF.jpeg"
+  }, {
+    "id": 3,
+    "categoria1":"DIA",
+    "categoria2":"INFORMAL",
+    "nombre": "CATHY",
+    "talle":"M",
+    "precio": 10300,
+    "cantidad":2,
+    "img":"img/lookDI2.png"
+  }, {
+    "id": 4,
+    "categoria1":"DIA",
+    "categoria2":"FORMAL",
+    "nombre": "PEGGY",
+    "talle":"L",
+    "precio": 9800,
+    "cantidad":5,
+    "img":"img/lookDF2.jpeg"
+  },{
+    "id": 5,
+    "categoria1":"NOCHE",
+    "categoria2":"INFORMAL",
+    "nombre": "MERLINA",
+    "talle":"M",
+    "precio": 6999,
+    "cantidad":3,
+    "img":"img/lookNF.jpeg"
+  },{
+    "id": 6,
+    "categoria1":"NOCHE",
+    "categoria2":"INFORMAL",
+    "nombre": "AMY",
+    "talle":"S",
+    "precio": 9599,
+    "cantidad":3,
+    "img":"img/lookNI2.png"
+  },{
+    "id": 7,
+    "categoria1":"DIA",
+    "categoria2":"FORMAL",
+    "nombre": "RACHEL",
+    "talle":"XL",
+    "precio": 10000,
+    "cantidad":3,
+    "img":"img/lookDF6.jpeg"
+  },{
+    "id": 8,
+    "categoria1":"NOCHE",
+    "categoria2":"INFORMAL",
+    "nombre": "MEGAN",
+    "talle":"M",
+    "precio": 6300,
+    "cantidad":3,
+    "img":"img/lookNI6.jpeg"
+},{
+  "id": 9,
+    "categoria1":"NOCHE",
+    "categoria2":"INFORMAL",
+    "nombre": "LUNA",
+    "talle":"M",
+    "precio": 8000,
+    "cantidad":4,
+    "img":"img/lookNI3.jpeg"
+},{
+  "id": 10,
+    "categoria1":"DIA",
+    "categoria2":"INFORMAL",
+    "nombre": "JAZMIN",
+    "talle":"S",
+    "precio": 7900,
+    "cantidad":5,
+    "img":"img/lookDI3.jpeg"
+},{
+  "id": 11,
+  "categoria1":"NOCHE",
+  "categoria2":"FORMAL",
+  "nombre": "MILAGROS",
+  "talle":"M",
+  "precio": 5900,
+  "cantidad":2,
+  "img":"img/lookNF1.jpg"
+},{
+  "id": 12,
+  "categoria1":"DIA",
+  "categoria2":"FORMAL",
+  "nombre": "CECILIA",
+  "talle":"S",
+  "precio": 9900,
+  "cantidad":4,
+  "img":"img/lookDF4.jpeg"
+},{
+  "id": 13,
+  "categoria1":"DIA",
+  "categoria2":"FORMAL",
+  "nombre": "ESME",
+  "talle":"M",
+  "precio": 7600,
+  "cantidad":4,
+  "img":"img/lookDF5.jpeg"
+},{
+  "id": 14,
+  "categoria1":"DIA",
+  "categoria2":"INFORMAL",
+  "nombre": "DAINA",
+  "talle":"S",
+  "precio": 5800,
+  "cantidad":2,
+  "img":"img/lookDI4.jpeg"
+},{
+  "id": 15,
+  "categoria1":"DIA",
+  "categoria2":"INFORMAL",
+  "nombre": "PETUNIA",
+  "talle":"L",
+  "precio": 7300,
+  "cantidad":4,
+  "img":"img/lookDI5.jpeg"
+},{
+  "id": 16,
+  "categoria1":"NOCHE",
+  "categoria2":"FORMAL",
+  "nombre": "JOSEFINA",
+  "talle":"M",
+  "precio": 6450,
+  "cantidad":4,
+  "img":"img/lookNF3.jpeg"
+},{
+  "id": 17,
+  "categoria1":"NOCHE",
+  "categoria2":"INFORMAL",
+  "nombre": "PAOLA",
+  "talle":"S",
+  "precio": 8450,
+  "cantidad":5,
+  "img":"img/lookNI5.jpeg"
+},{
+  "id": 18,
+  "categoria1":"DIA",
+  "categoria2":"INFORMAL",
+  "nombre": "SOFiA",
+  "talle":"S",
+  "precio": 5450,
+  "cantidad":4,
+  "img":"img/lookDI6.jpeg"
+},{
+  "id": 19,
+  "categoria1":"DIA",
+  "categoria2":"FORMAL",
+  "nombre": "FLORENCIA",
+  "talle":"M",
+  "precio": 4450,
+  "cantidad":2,
+  "img":"img/lookDF7.jpeg"
+},{
+  "id": 20,
+  "categoria1":"NOCHE",
+  "categoria2":"INFORMAL",
+  "nombre": "VANESA",
+  "talle":"L",
+  "precio": 9000,
+  "cantidad":3,
+  "img":"img/lookNI4.jpeg"
+},{
+  "id": 21,
+  "categoria1":"NOCHE",
+  "categoria2":"FORMAL",
+  "nombre": "HELENA",
+  "talle":"L",
+  "precio": 12000,
+  "cantidad":2,
+  "img":"img/lookNF4.jpg"
+},{
+  "id": 22,
+  "categoria1":"NOCHE",
+  "categoria2":"FORMAL",
+  "nombre": "MARIANA",
+  "talle":"L",
+  "precio": 15000,
+  "cantidad":1,
+  "img":"img/lookNF8.jpg"
+},{
+  "id": 23,
+  "categoria1":"NOCHE",
+  "categoria2":"FORMAL",
+  "nombre": "DIANA",
+  "talle":"M",
+  "precio": 15400,
+  "cantidad":4,
+  "img":"img/lookNF7.jpg"
+},{
+  "id": 24,
+  "categoria1":"NOCHE",
+  "categoria2":"FORMAL",
+  "nombre": "LUCRECIA",
+  "talle":"M",
+  "precio": 13400,
+  "cantidad":4,
+  "img":"img/lookNF6.jpg"
+}]
